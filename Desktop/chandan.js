@@ -68,26 +68,20 @@ for(x in str4){
 
 
  //sorting an arr,,,,,,,,,,,
+ // Bubble sort -------; 
  function sortarr12(...arr12){
-//arr12=[5,7,8,25];
-
-  for(b=0;b<=arr12.length-1;b++){
+for(b=0;b<=arr12.length-1;b++){
 for(c=0;c<=arr12.length-1-b;c++){
 if(arr12[c] < arr12[c+1]){
    let d=arr12[c];
     arr12[c]=arr12[c+1];
-  arr12[c+1]=d;
-
-}
- 
-
+  arr12[c+1]=d;}
 }console.log(arr12[b]);
-
 } 
  }
-
-//arr11=[];
 sortarr12(2,23,5,4,34);
+//Selection sort ''''''''';
+console.log("chandan singh");
 
 
 
